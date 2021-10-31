@@ -58,6 +58,9 @@ export default class SearchResultCard extends React.Component {
                     <div dangerouslySetInnerHTML={{__html : sanitizeHtml(this.props.value.highlightText)}} />
                     <br />
                     {this.getRecommendedItems(this.props.value.recommendedItems)}
+                    <br />
+                    <hr />
+                    <br />
                 </div>
             </div>
         )
