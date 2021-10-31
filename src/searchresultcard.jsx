@@ -49,6 +49,9 @@ export default class SearchResultCard extends React.Component {
                         {this.props.value.shopNameTH}
                     </div>
                     <div>
+                        {this.props.value.categoryName}
+                    </div>
+                    <div>
                         {this.props.value.subcategoryName} | {this.getPriceLevelIndicator(this.props.value.priceLevel)} | {this.props.value.addressDistrictName} {this.props.value.addressProvinceName}
                     </div>
                     <hr />
